@@ -16,7 +16,7 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['wow.profile', 'sc2.profile'];
+    protected $scopes = [];
 
     /**
      * {@inheritdoc}
